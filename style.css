@@ -1,0 +1,72 @@
+button {
+    height: 50px;
+    margin: 0.5px;
+    font-size: 1.2em;
+    border-style: none;
+    background-color: pink;
+}
+
+.calculator {
+    position: center;
+    top: 150px;
+    margin: 0 auto;
+    max-width: 300px;
+   
+}
+
+.calcButtons {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    margin:0 auto;
+    border: 1px solid black;
+    background-color: white;
+    padding: 10px;
+}
+
+.calcButtons > button:nth-child(17) {
+ 
+    grid-column: 1/3;
+}
+
+.operator {
+    background-color: pink;
+}
+
+.number {
+    background-color: yellow;
+}
+
+.userInput {
+    position: relative;
+    height: 80px;
+    max-width: 100%;
+    text-align: right;
+    padding: 10px;
+    font-size: 25px;
+    border: 1px solid black;
+    background-color: white;
+}
+
+
+
+.calcButtons > button:nth-child(19) {
+
+    background-color: pink;
+}
+
+.userEntry {
+    position: absolute;
+    bottom: 0;
+    padding: 0;
+    margin: 0px;
+    right:0;
+}
+
+.finalCalc{
+
+    position: absolute;
+    right:0;
+    margin:0px;
+    top:0;
+    padding:0;
+}
